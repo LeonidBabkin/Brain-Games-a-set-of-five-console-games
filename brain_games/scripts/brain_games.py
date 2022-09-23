@@ -1,8 +1,10 @@
-from brain_games import cli
+#!/usr/bin/python3
+
+from brain_games.cli import welcome_user
 
 
 def main():
-        cli.welcome_user()
+    welcome_user()
 
 
 if __name__ == '__main__':
