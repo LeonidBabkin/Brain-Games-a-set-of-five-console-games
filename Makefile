@@ -11,3 +11,8 @@ package-install:
 
 publish:
 	poetry publish --dry-run
+
+lint:
+	poetry run flake8 brain_games
+
+
