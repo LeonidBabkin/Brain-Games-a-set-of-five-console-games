@@ -17,7 +17,7 @@ def gamestart_func(game):  # call a whole module:calc,even,progression and so on
             counter += 1
         else:
             print(f'{user_input} is wrong answer ;(. Correct answer was {answer}')
-            return print(f'Let\'s try again, {name}')
+            return print(f'Let\'s try again, {name}!')
 
 
     print(f'Congratulations, {name}!')
