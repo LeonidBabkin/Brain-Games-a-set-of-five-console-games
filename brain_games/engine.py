@@ -20,4 +20,4 @@ def gamestart_func(game):  # call a whole module:calc,even,progression and so on
             return print(f'Let\'s try again, {name}')
 
 
-    print(f'Congratulations!, {name}')
+    print(f'Congratulations, {name}!')
