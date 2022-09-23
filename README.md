@@ -5,5 +5,5 @@
 
 https://asciinema.org/a/VL9phdxISo4ngDDD7ggs4rZzh  # brain-games
 https://asciinema.org/a/TuceKf1aCiQiXUNbw2gOjw3AG  # brain-calc
-https://asciinema.org/a/wGcUX2wFOEecEVUNjqFYKop9w  # brain-even
+https://asciinema.org/a/1GBev0E17uKCUEVJXAO68HssN  # brain-even
 
