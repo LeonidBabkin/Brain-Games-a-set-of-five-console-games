@@ -15,4 +15,7 @@ publish:
 lint:
 	poetry run flake8 brain_games
 
+reinstall-package:
+
+	pip install --user --force-reinstall dist/*.whl
 
