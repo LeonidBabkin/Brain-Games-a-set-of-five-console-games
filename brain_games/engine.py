@@ -11,11 +11,11 @@ def gamestart_func(game):  # call a whole module:calc,even,progression and so on
     while counter <= CYCLES:
         question, answer = game.calc_func()  # call a function
         print(question)
-        user_input = prompt.string('Your answer: ')
-        if answer == str(user_input):
+        us_input = prompt.string('Your answer: ')
+        if answer == str(us_input):
             print('Correct!')
             counter += 1
         else:
-            print(f'{user_input} is wrong answer ;(. Correct answer was {answer}')
+            print(f'{us_input} is wrong answer ;(. Correct answer was {answer}')
             return print(f'Let\'s try again, {name}!')
     print(f'Congratulations, {name}!')
