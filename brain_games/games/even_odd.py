@@ -12,5 +12,3 @@ def calc_func():
         v = 'yes'
 
     return question, v
-
-

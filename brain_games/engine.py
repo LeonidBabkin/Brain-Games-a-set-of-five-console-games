@@ -12,12 +12,10 @@ def gamestart_func(game):  # call a whole module:calc,even,progression and so on
         question, answer = game.calc_func()  # call a function
         print(question)
         user_input = prompt.string('Your answer: ')
-        if answer == user_input:
+        if answer == str(user_input):
             print('Correct!')
             counter += 1
         else:
             print(f'{user_input} is wrong answer ;(. Correct answer was {answer}')
             return print(f'Let\'s try again, {name}!')
-
-
     print(f'Congratulations, {name}!')

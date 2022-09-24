@@ -5,9 +5,9 @@ TASK = 'What is the result of the expression?'
 
 
 def calc_func():
-    lst = ['+','-','*']
-    dct = {'+': add,'*': mul,'-': sub}
-    rand_operator =random.choices(lst, k=1)
+    lst = ['+', '-', '*']
+    dct = {'+': add, '*': mul, '-': sub}
+    rand_operator = random.choices(lst, k=1)
     a = random.randrange(1, 100)
     b = random.randrange(1, 100)
     answer = dct[rand_operator[0]](a, b)
