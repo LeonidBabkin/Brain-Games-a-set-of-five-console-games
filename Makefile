@@ -20,6 +20,8 @@ brain-even:
 brain-gcd:
 	poetry run brain-gcd
 brain-progression:
-	poetry run brain-progression
+	poetry run brain-arogression
+brain-prime:
+	poetry run brain-prime
 
-.PHONY: install brain-games build package-install publish lint reinstall-package brain-calc brain-even brain-gcd brain-progression
+.PHONY: install brain-games build package-install publish lint reinstall-package brain-calc brain-even brain-gcd brain-progression brain-prime
