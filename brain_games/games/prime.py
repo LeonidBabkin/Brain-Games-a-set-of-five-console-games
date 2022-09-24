@@ -4,11 +4,13 @@ TASK = 'Answer \"yes\" if given number is prime. Otherwise answer \"no\".'
 
 
 def calc_func():
-    num = randrange(1, 1000)
+    num = randrange(1, 100)
     question = f'Question: {num}'
-    for i in range(2, num):
-        if (num % i) == 0:
-            answer = 'no'
-            return question, str(answer)
-        answer = 'yes'
-        return question, str(answer)
+    for num in range(1, num + 1):
+        for i in range(2, num):
+            if (num % i) == 0:
+                answer = 'no'
+                break
+        else:
+            answer = 'yes'
+    return question, answer
