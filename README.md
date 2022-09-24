@@ -8,3 +8,4 @@ https://asciinema.org/a/TuceKf1aCiQiXUNbw2gOjw3AG  # brain-calc
 https://asciinema.org/a/1GBev0E17uKCUEVJXAO68HssN  # brain-even
 https://asciinema.org/a/EMJ0C0pAhUiDqfuU7yEorTEJu  # brain-gcd
 https://asciinema.org/a/WroGjrgHfJGKHnfbIsbLYUNOs  # brain-progression
+https://asciinema.org/a/Sol4Xxptdg1HX0RYXTV1Kh1VO  # brain-prime
