@@ -6,6 +6,7 @@
 
 Here are presented five simple arithmetic games constituting the very first project on the Hexlet Python Course.
 
+It's possibel install the package via pip install -i https://test.pypi.org/simple/ project-leonidbabkin==1.3.0
 
 - Arithmetic calculation: brain-calc
 - Even-odd bymbers check: brain-even
