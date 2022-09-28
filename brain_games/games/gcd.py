@@ -3,7 +3,7 @@ import random
 TASK = 'Find the greatest common divisor of given numbers.'
 
 
-def calc_func():
+def generate_round():
     a = random.randrange(1, 100)
     b = random.randrange(1, 100)
     sequence = [i for i in range(1, max(a, b))]

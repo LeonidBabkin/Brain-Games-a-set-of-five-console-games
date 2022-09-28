@@ -3,14 +3,22 @@ from random import randrange
 TASK = 'Answer \"yes\" if given number is prime. Otherwise answer \"no\".'
 
 
-def calc_func():
+
+def is_prime(num):
+    if num == 0 or num == 1:
+        return False
+    for x in range(2, num):
+        if num % x == 0:
+            return False
+    else:
+        return True
+
+def generate_round():
     num = randrange(1, 100)
     question = f'Question: {num}'
-    for num in range(1, num + 1):
-        for i in range(2, num):
-            if (num % i) == 0:
-                answer = 'no'
-                break
-        else:
-            answer = 'yes'
+    if is_prime(num):
+        answer = 'yes'
+    else:
+        answer = 'no'
+
     return question, answer

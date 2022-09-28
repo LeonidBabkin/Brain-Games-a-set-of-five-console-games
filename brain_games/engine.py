@@ -1,21 +1,21 @@
 import prompt
-CYCLES = 3
+ROUNDS = 3
 
 
-def gamestart_func(game):  # call a whole module:calc,even,progression and so on
+def start(game):
     print("Welcome to The Brain Games!")
     name = prompt.string('May I have your name? ')
     print(f"Hello, {name}!")
-    print(game.TASK)  # call a constant from a module.
+    print(game.TASK)
     counter = 1
-    while counter <= CYCLES:
-        question, answer = game.calc_func()  # call a function
+    while counter <= ROUNDS:
+        question, answer = game.generate_round()
         print(question)
-        us_input = prompt.string('Your answer: ')
-        if answer == str(us_input):
+        user_ans = prompt.string('Your answer: ')
+        if answer == str(user_ans):
             print('Correct!')
             counter += 1
         else:
-            print(f'{us_input} is wrong answer ;(. Correct answer was {answer}')
+            print(f'{user_ans} is wrong answer ;(. Correct answer was {answer}')
             return print(f'Let\'s try again, {name}!')
     print(f'Congratulations, {name}!')

@@ -3,12 +3,12 @@ import random
 TASK = 'Answer \"yes\" if the number is even, otherwise answer \"no\".'
 
 
-def calc_func():
+def generate_round():
     number = random.randrange(1, 15)
     question = f'Question: {number}'
     if number % 2 == 1:
-        v = 'no'
+        answer = 'no'
     else:
-        v = 'yes'
+        answer = 'yes'
 
-    return question, v
+    return question, answer
