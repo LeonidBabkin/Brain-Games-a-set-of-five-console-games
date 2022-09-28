@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "project-LeonidBabkin"
+name = "hexlet-code"
 version = "1.3.0"
 description = "hexlet course python developer - first project"
 authors = ["LeonidBabkin <Babkinleo@gmail.com>"]
